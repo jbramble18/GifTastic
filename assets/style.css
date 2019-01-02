@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero-btn {
+    margin: 10px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: grey;
+}
+.gifs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 4;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.image {
+    float: left;
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+}
+.rating {
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+ }
+.jumbotron {
+    text-align: center;
+    color: red;
+    background-color: black;
+    
+    
+    
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+
+}
+#add-hero {
+    font-family: 'Permanent Marker', cursive;
+    background-color: black;
+    color: red;
+}
+.form-group {
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    background-image: url("../assets/images/powimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
