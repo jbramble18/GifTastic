@@ -13,7 +13,7 @@ function displayGifs() {
 
         for (var i = 0; i < results.length; i++) {
 
-            if (results[i].rating !== 'r') {
+            if (results[i].rating !== 'nc-17') {
                 var gifDiv = $("<div>");
                 var rating = results[i].rating;
                 var p = $("<p>").text("Rating: " + rating);
